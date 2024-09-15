@@ -3,8 +3,8 @@ package com.example;
 import java.util.List;
 
 public class LionAlex extends Lion{
-    private static final String alexPlaceOfLiving = "Нью-Йоркский зоопарк";
-    private static final List<String> alexFriends = List.of("Марти", "Глория", "Мелмон");
+    private static final String ALEX_PLACE_OF_LIVING = "Нью-Йоркский зоопарк";
+    private static final List<String> ALEX_FRIENDS = List.of("Марти", "Глория", "Мелмон");
     public LionAlex(Feline feline) throws Exception {
         super("Самец", feline);
     }
@@ -15,10 +15,10 @@ public class LionAlex extends Lion{
     }
 
     public String getPlaceOfLiving() {
-        return alexPlaceOfLiving;
+        return ALEX_PLACE_OF_LIVING;
     }
 
     public List<String> getFriends() {
-        return alexFriends;
+        return ALEX_FRIENDS;
     }
 }

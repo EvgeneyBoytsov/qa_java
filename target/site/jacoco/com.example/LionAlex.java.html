@@ -3,8 +3,8 @@
 import java.util.List;
 
 public class LionAlex extends Lion{
-    private static final String alexPlaceOfLiving = &quot;Нью-Йоркский зоопарк&quot;;
-<span class="fc" id="L7">    private static final List&lt;String&gt; alexFriends = List.of(&quot;Марти&quot;, &quot;Глория&quot;, &quot;Мелмон&quot;);</span>
+    private static final String ALEX_PLACE_OF_LIVING = &quot;Нью-Йоркский зоопарк&quot;;
+<span class="fc" id="L7">    private static final List&lt;String&gt; ALEX_FRIENDS = List.of(&quot;Марти&quot;, &quot;Глория&quot;, &quot;Мелмон&quot;);</span>
     public LionAlex(Feline feline) throws Exception {
 <span class="fc" id="L9">        super(&quot;Самец&quot;, feline);</span>
 <span class="fc" id="L10">    }</span>
@@ -15,11 +15,11 @@ public class LionAlex extends Lion{
     }
 
     public String getPlaceOfLiving() {
-<span class="fc" id="L18">        return alexPlaceOfLiving;</span>
+<span class="fc" id="L18">        return ALEX_PLACE_OF_LIVING;</span>
     }
 
     public List&lt;String&gt; getFriends() {
-<span class="fc" id="L22">        return alexFriends;</span>
+<span class="fc" id="L22">        return ALEX_FRIENDS;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

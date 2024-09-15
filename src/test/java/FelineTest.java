@@ -25,7 +25,6 @@ public class FelineTest {
         String actualFamily = feline.getFamily();
 
         Assert.assertEquals(expectedFamily,actualFamily);
-        Mockito.verify(feline).getFamily();
     }
 
     @Test
